@@ -17,10 +17,19 @@ fetch(hamsters,{headers: {
     })
     .then((hamsterspic ) => {console.log(hamsterspic)})
 
-    .catch((error) => {
+const images = document.querySelectorAll("card-img-top")
+
+hamsters.photos.[i].forEach(photos[i]) => {
+    
+});
+
+    .catch((Error) => {
         console.log('errore')
     })
 
+const button = document.getElementById('hamster');
+
+button.addEventListener("click", getHamsters)
 
 
 
